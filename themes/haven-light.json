@@ -5,7 +5,7 @@
   "colors": {
 
     // ── Editor ──────────────────────────────────────────────
-    "editor.background": "#FBFAF8",
+    "editor.background": "#F8F4EC",
     "editor.foreground": "#0D322D",
     "editor.lineHighlightBackground": "#F3F1EE",
     "editor.lineHighlightBorder": "#F3F1EE00",
@@ -40,13 +40,13 @@
     "editorGroup.border": "#D1CDC6",
     "editorGroupHeader.tabsBackground": "#F3F1EE",
     "editorGroupHeader.noTabsBackground": "#F3F1EE",
-    "tab.activeBackground": "#FBFAF8",
+    "tab.activeBackground": "#F8F4EC",
     "tab.activeForeground": "#0D322D",
     "tab.activeBorder": "#1B685E",
     "tab.inactiveBackground": "#F3F1EE",
     "tab.inactiveForeground": "#5B544C",
     "tab.border": "#F3F1EE",
-    "tab.hoverBackground": "#FBFAF8",
+    "tab.hoverBackground": "#F8F4EC",
 
     // ── Title Bar ───────────────────────────────────────────
     // warm-900 (#F3F1EE) — matches sidebar, thin strip should blend not dominate
@@ -63,7 +63,7 @@
     "activityBar.inactiveForeground": "#857E75",
     "activityBar.border": "#D1CDC6",
     "activityBarBadge.background": "#1B685E",
-    "activityBarBadge.foreground": "#FBFAF8",
+    "activityBarBadge.foreground": "#F8F4EC",
 
     // ── Sidebar ─────────────────────────────────────────────
     // warm-900 (#F3F1EE) — warm neutral chrome matching tab bar
@@ -76,15 +76,15 @@
 
     // ── Status Bar ──────────────────────────────────────────
     "statusBar.background": "#124D45",
-    "statusBar.foreground": "#FBFAF8",
+    "statusBar.foreground": "#F8F4EC",
     "statusBar.border": "#0D322D",
     "statusBar.debuggingBackground": "#0D322D",
-    "statusBar.debuggingForeground": "#FBFAF8",
+    "statusBar.debuggingForeground": "#F8F4EC",
     "statusBar.noFolderBackground": "#5B544C",
-    "statusBar.noFolderForeground": "#FBFAF8",
+    "statusBar.noFolderForeground": "#F8F4EC",
     "statusBarItem.hoverBackground": "#0D322D80",
     "statusBarItem.remoteBackground": "#124D45",
-    "statusBarItem.remoteForeground": "#FBFAF8",
+    "statusBarItem.remoteForeground": "#F8F4EC",
 
     // ── Panel (Terminal, Output, etc.) ──────────────────────
     "panel.background": "#F3F1EE",
@@ -110,7 +110,7 @@
     "chat.slashCommandForeground": "#1B685E",
 
     // ── Inputs ──────────────────────────────────────────────
-    "input.background": "#FBFAF8",
+    "input.background": "#F8F4EC",
     "input.foreground": "#0D322D",
     "input.border": "#857E75",
     "input.placeholderForeground": "#857E7580",
@@ -125,21 +125,21 @@
 
     // ── Buttons ─────────────────────────────────────────────
     "button.background": "#1B685E",
-    "button.foreground": "#FBFAF8",
+    "button.foreground": "#F8F4EC",
     "button.hoverBackground": "#124D45",
     "button.secondaryBackground": "#E7E4DF",
     "button.secondaryForeground": "#0D322D",
     "button.secondaryHoverBackground": "#D1CDC6",
 
     // ── Dropdown ────────────────────────────────────────────
-    "dropdown.background": "#FBFAF8",
+    "dropdown.background": "#F8F4EC",
     "dropdown.foreground": "#0D322D",
     "dropdown.border": "#857E75",
-    "dropdown.listBackground": "#FBFAF8",
+    "dropdown.listBackground": "#F8F4EC",
 
     // ── Badges ──────────────────────────────────────────────
     "badge.background": "#1B685E",
-    "badge.foreground": "#FBFAF8",
+    "badge.foreground": "#F8F4EC",
 
     // ── Scrollbar ───────────────────────────────────────────
     "scrollbar.shadow": "#0D322D10",
@@ -172,7 +172,7 @@
 
     // ── Peek View ───────────────────────────────────────────
     "peekView.border": "#1B685E",
-    "peekViewEditor.background": "#FBFAF8",
+    "peekViewEditor.background": "#F8F4EC",
     "peekViewEditor.matchHighlightBackground": "#D0E7E280",
     "peekViewResult.background": "#F3F1EE",
     "peekViewResult.fileForeground": "#0D322D",
@@ -234,7 +234,7 @@
     "terminal.ansiBlue": "#287AA3",
     "terminal.ansiMagenta": "#932B2A",
     "terminal.ansiCyan": "#1B685E",
-    "terminal.ansiWhite": "#FBFAF8",
+    "terminal.ansiWhite": "#F8F4EC",
     "terminal.ansiBrightBlack": "#857E75",
     "terminal.ansiBrightRed": "#C13C3B",
     "terminal.ansiBrightGreen": "#3A8E64",
@@ -242,7 +242,7 @@
     "terminal.ansiBrightBlue": "#538EB0",
     "terminal.ansiBrightMagenta": "#D87972",
     "terminal.ansiBrightCyan": "#3A8478",
-    "terminal.ansiBrightWhite": "#FBFAF8",
+    "terminal.ansiBrightWhite": "#F8F4EC",
     "terminal.selectionBackground": "#D0E7E2",
     "terminalCursor.foreground": "#1B685E",
 
@@ -259,7 +259,7 @@
   "tokenColors": [
 
     // ── Comments ────────────────────────────────────────────
-    // text-secondary (#5B544C) · 7.15:1 on #FBFAF8 · AA ✓
+    // text-secondary (#5B544C) · 7.15:1 on #F8F4EC · AA ✓
     {
       "name": "Comments",
       "scope": [
@@ -273,7 +273,7 @@
     },
 
     // ── Keywords ────────────────────────────────────────────
-    // teal-400 (#1B685E) · 6.69:1 on #FBFAF8 · AA ✓
+    // teal-400 (#1B685E) · 6.69:1 on #F8F4EC · AA ✓
     {
       "name": "Keywords",
       "scope": [
@@ -292,7 +292,7 @@
     },
 
     // ── Strings ─────────────────────────────────────────────
-    // warning-text (#754B00) · 7.28:1 on #FBFAF8 · AA ✓
+    // warning-text (#754B00) · 7.28:1 on #F8F4EC · AA ✓
     {
       "name": "Strings",
       "scope": [
@@ -306,7 +306,7 @@
     },
 
     // ── Numbers, Booleans, Constants ────────────────────────
-    // info-text (#0B4E6C) · 8.67:1 on #FBFAF8 · AA ✓
+    // info-text (#0B4E6C) · 8.67:1 on #F8F4EC · AA ✓
     {
       "name": "Constants",
       "scope": [
@@ -322,7 +322,7 @@
     },
 
     // ── Types, Classes, Interfaces ──────────────────────────
-    // teal-300 (#124D45) · 9.29:1 on #FBFAF8 · AA ✓
+    // teal-300 (#124D45) · 9.29:1 on #F8F4EC · AA ✓
     {
       "name": "Types and Classes",
       "scope": [
@@ -341,7 +341,7 @@
     },
 
     // ── Functions and Methods ────────────────────────────────
-    // sage-400 (#3A643D) · 6.56:1 on #FBFAF8 · AA ✓
+    // sage-400 (#3A643D) · 6.56:1 on #F8F4EC · AA ✓
     // (shifted from sage-300 per deuteranopia review — better lightness separation from types)
     {
       "name": "Functions",
@@ -357,7 +357,7 @@
     },
 
     // ── Variables ────────────────────────────────────────────
-    // text-primary (#0D322D) · 13.32:1 on #FBFAF8 · AAA ✓
+    // text-primary (#0D322D) · 13.32:1 on #F8F4EC · AAA ✓
     {
       "name": "Variables",
       "scope": [
@@ -371,7 +371,7 @@
     },
 
     // ── Properties and Attributes ───────────────────────────
-    // text-secondary (#5B544C) · 7.15:1 on #FBFAF8 · AA ✓
+    // text-secondary (#5B544C) · 7.15:1 on #F8F4EC · AA ✓
     {
       "name": "Properties",
       "scope": [
@@ -386,7 +386,7 @@
     },
 
     // ── Operators and Punctuation ────────────────────────────
-    // text-secondary (#5B544C) · 7.15:1 on #FBFAF8 · AA ✓
+    // text-secondary (#5B544C) · 7.15:1 on #F8F4EC · AA ✓
     {
       "name": "Operators",
       "scope": [
@@ -403,7 +403,7 @@
     },
 
     // ── HTML/XML Tags ───────────────────────────────────────
-    // teal-400 (#1B685E) · 6.69:1 on #FBFAF8 · AA ✓
+    // teal-400 (#1B685E) · 6.69:1 on #F8F4EC · AA ✓
     {
       "name": "HTML Tags",
       "scope": [
@@ -416,7 +416,7 @@
     },
 
     // ── HTML/XML Attributes ─────────────────────────────────
-    // sage-400 (#3A643D) · 6.56:1 on #FBFAF8 · AA ✓
+    // sage-400 (#3A643D) · 6.56:1 on #F8F4EC · AA ✓
     {
       "name": "HTML Attributes",
       "scope": [
@@ -428,7 +428,7 @@
     },
 
     // ── Regex and Escape Characters ─────────────────────────
-    // error-text (#932B2A) · 7.68:1 on #FBFAF8 · AA ✓
+    // error-text (#932B2A) · 7.68:1 on #F8F4EC · AA ✓
     {
       "name": "Regex and Escapes",
       "scope": [
@@ -442,7 +442,7 @@
     },
 
     // ── Decorators and Annotations ──────────────────────────
-    // sage-400 (#3A643D) italic · 6.56:1 on #FBFAF8 · AA ✓
+    // sage-400 (#3A643D) italic · 6.56:1 on #F8F4EC · AA ✓
     {
       "name": "Decorators",
       "scope": [
@@ -457,7 +457,7 @@
     },
 
     // ── CSS Properties ──────────────────────────────────────
-    // teal-400 (#1B685E) · 6.69:1 on #FBFAF8 · AA ✓
+    // teal-400 (#1B685E) · 6.69:1 on #F8F4EC · AA ✓
     {
       "name": "CSS Properties",
       "scope": [
@@ -470,7 +470,7 @@
     },
 
     // ── CSS Values ──────────────────────────────────────────
-    // warning-text (#754B00) · 7.28:1 on #FBFAF8 · AA ✓
+    // warning-text (#754B00) · 7.28:1 on #F8F4EC · AA ✓
     {
       "name": "CSS Values",
       "scope": [
@@ -485,7 +485,7 @@
     },
 
     // ── CSS Selectors ───────────────────────────────────────
-    // teal-300 (#124D45) · 9.29:1 on #FBFAF8 · AA ✓
+    // teal-300 (#124D45) · 9.29:1 on #F8F4EC · AA ✓
     {
       "name": "CSS Selectors",
       "scope": [
@@ -499,7 +499,7 @@
     },
 
     // ── CSS Units and Functions ──────────────────────────────
-    // info-text (#0B4E6C) · 8.67:1 on #FBFAF8 · AA ✓
+    // info-text (#0B4E6C) · 8.67:1 on #F8F4EC · AA ✓
     {
       "name": "CSS Units",
       "scope": [
@@ -513,7 +513,7 @@
     },
 
     // ── JSON Keys ───────────────────────────────────────────
-    // teal-400 (#1B685E) · 6.69:1 on #FBFAF8 · AA ✓
+    // teal-400 (#1B685E) · 6.69:1 on #F8F4EC · AA ✓
     {
       "name": "JSON Keys",
       "scope": [
@@ -525,7 +525,7 @@
     },
 
     // ── Markdown Headings ───────────────────────────────────
-    // text-primary (#0D322D) bold · 13.32:1 on #FBFAF8 · AAA ✓
+    // text-primary (#0D322D) bold · 13.32:1 on #F8F4EC · AAA ✓
     {
       "name": "Markdown Headings",
       "scope": [
@@ -557,7 +557,7 @@
     },
 
     // ── Markdown Italic ─────────────────────────────────────
-    // teal-400 (#1B685E) italic · 6.69:1 on #FBFAF8 · AA ✓
+    // teal-400 (#1B685E) italic · 6.69:1 on #F8F4EC · AA ✓
     {
       "name": "Markdown Italic",
       "scope": [
@@ -570,7 +570,7 @@
     },
 
     // ── Markdown Links ──────────────────────────────────────
-    // teal-400 (#1B685E) underline · 6.69:1 on #FBFAF8 · AA ✓
+    // teal-400 (#1B685E) underline · 6.69:1 on #F8F4EC · AA ✓
     {
       "name": "Markdown Links",
       "scope": [
@@ -584,7 +584,7 @@
     },
 
     // ── Markdown Code ───────────────────────────────────────
-    // teal-300 (#124D45) · 9.29:1 on #FBFAF8 · AA ✓
+    // teal-300 (#124D45) · 9.29:1 on #F8F4EC · AA ✓
     {
       "name": "Markdown Inline Code",
       "scope": [

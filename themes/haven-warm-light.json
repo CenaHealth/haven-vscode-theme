@@ -5,7 +5,7 @@
   "colors": {
 
     // ── Editor ──────────────────────────────────────────────
-    "editor.background": "#FBFAF8",
+    "editor.background": "#F8F4EC",
     "editor.foreground": "#0D322D",
     "editor.lineHighlightBackground": "#F3F1EE",
     "editor.lineHighlightBorder": "#F3F1EE00",
@@ -40,13 +40,13 @@
     "editorGroup.border": "#D1CDC6",
     "editorGroupHeader.tabsBackground": "#F3F1EE",
     "editorGroupHeader.noTabsBackground": "#F3F1EE",
-    "tab.activeBackground": "#FBFAF8",
+    "tab.activeBackground": "#F8F4EC",
     "tab.activeForeground": "#0D322D",
     "tab.activeBorder": "#5B544C",
     "tab.inactiveBackground": "#F3F1EE",
     "tab.inactiveForeground": "#5B544C",
     "tab.border": "#F3F1EE",
-    "tab.hoverBackground": "#FBFAF8",
+    "tab.hoverBackground": "#F8F4EC",
 
     // ── Title Bar ───────────────────────────────────────────
     // warm-900 (#F3F1EE) — matches sidebar, thin strip should blend
@@ -63,7 +63,7 @@
     "activityBar.inactiveForeground": "#857E75",
     "activityBar.border": "#D1CDC6",
     "activityBarBadge.background": "#1B685E",
-    "activityBarBadge.foreground": "#FBFAF8",
+    "activityBarBadge.foreground": "#F8F4EC",
 
     // ── Sidebar ─────────────────────────────────────────────
     // warm-900 (#F3F1EE) — warm neutral chrome matching tab bar
@@ -77,15 +77,15 @@
     // ── Status Bar ──────────────────────────────────────────
     // Warm neutral — teal only appears as accent (badge, focus)
     "statusBar.background": "#5B544C",
-    "statusBar.foreground": "#FBFAF8",
+    "statusBar.foreground": "#F8F4EC",
     "statusBar.border": "#3F3933",
     "statusBar.debuggingBackground": "#1B685E",
-    "statusBar.debuggingForeground": "#FBFAF8",
+    "statusBar.debuggingForeground": "#F8F4EC",
     "statusBar.noFolderBackground": "#857E75",
-    "statusBar.noFolderForeground": "#FBFAF8",
+    "statusBar.noFolderForeground": "#F8F4EC",
     "statusBarItem.hoverBackground": "#3F393380",
     "statusBarItem.remoteBackground": "#1B685E",
-    "statusBarItem.remoteForeground": "#FBFAF8",
+    "statusBarItem.remoteForeground": "#F8F4EC",
 
     // ── Panel (Terminal, Output, etc.) ──────────────────────
     "panel.background": "#F3F1EE",
@@ -111,7 +111,7 @@
     "chat.slashCommandForeground": "#5B544C",
 
     // ── Inputs ──────────────────────────────────────────────
-    "input.background": "#FBFAF8",
+    "input.background": "#F8F4EC",
     "input.foreground": "#0D322D",
     "input.border": "#857E75",
     "input.placeholderForeground": "#857E7580",
@@ -127,21 +127,21 @@
     // ── Buttons ─────────────────────────────────────────────
     // Primary buttons stay teal — they are interactive accents
     "button.background": "#1B685E",
-    "button.foreground": "#FBFAF8",
+    "button.foreground": "#F8F4EC",
     "button.hoverBackground": "#124D45",
     "button.secondaryBackground": "#E7E4DF",
     "button.secondaryForeground": "#0D322D",
     "button.secondaryHoverBackground": "#D1CDC6",
 
     // ── Dropdown ────────────────────────────────────────────
-    "dropdown.background": "#FBFAF8",
+    "dropdown.background": "#F8F4EC",
     "dropdown.foreground": "#0D322D",
     "dropdown.border": "#857E75",
-    "dropdown.listBackground": "#FBFAF8",
+    "dropdown.listBackground": "#F8F4EC",
 
     // ── Badges ──────────────────────────────────────────────
     "badge.background": "#1B685E",
-    "badge.foreground": "#FBFAF8",
+    "badge.foreground": "#F8F4EC",
 
     // ── Scrollbar ───────────────────────────────────────────
     "scrollbar.shadow": "#5B544C10",
@@ -174,7 +174,7 @@
 
     // ── Peek View ───────────────────────────────────────────
     "peekView.border": "#857E75",
-    "peekViewEditor.background": "#FBFAF8",
+    "peekViewEditor.background": "#F8F4EC",
     "peekViewEditor.matchHighlightBackground": "#D0E7E280",
     "peekViewResult.background": "#F3F1EE",
     "peekViewResult.fileForeground": "#0D322D",
@@ -236,7 +236,7 @@
     "terminal.ansiBlue": "#287AA3",
     "terminal.ansiMagenta": "#932B2A",
     "terminal.ansiCyan": "#1B685E",
-    "terminal.ansiWhite": "#FBFAF8",
+    "terminal.ansiWhite": "#F8F4EC",
     "terminal.ansiBrightBlack": "#857E75",
     "terminal.ansiBrightRed": "#C13C3B",
     "terminal.ansiBrightGreen": "#3A8E64",
@@ -244,7 +244,7 @@
     "terminal.ansiBrightBlue": "#538EB0",
     "terminal.ansiBrightMagenta": "#D87972",
     "terminal.ansiBrightCyan": "#3A8478",
-    "terminal.ansiBrightWhite": "#FBFAF8",
+    "terminal.ansiBrightWhite": "#F8F4EC",
     "terminal.selectionBackground": "#E7E4DF",
     "terminalCursor.foreground": "#1B685E",
 
