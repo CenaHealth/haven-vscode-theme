@@ -21,12 +21,12 @@
     "editorCursor.foreground": "#1B685E",
     "editorWhitespace.foreground": "#BBB6AD40",
     "editorIndentGuide.background": "#BBB6AD",
-    "editorIndentGuide.activeBackground": "#857E75",
-    "editorLineNumber.foreground": "#857E75",
+    "editorIndentGuide.activeBackground": "#787066",
+    "editorLineNumber.foreground": "#787066",
     "editorLineNumber.activeForeground": "#0D322D",
     "editorRuler.foreground": "#BBB6AD40",
     "editorBracketMatch.background": "#CFCAC280",
-    "editorBracketMatch.border": "#857E75",
+    "editorBracketMatch.border": "#787066",
     "editorOverviewRuler.border": "#BBB6AD00",
     "editorGutter.addedBackground": "#3A8E64",
     "editorGutter.modifiedBackground": "#1B685E",
@@ -82,7 +82,7 @@
     "statusBar.border": "#3F3933",
     "statusBar.debuggingBackground": "#1B685E",
     "statusBar.debuggingForeground": "#F8F4EC",
-    "statusBar.noFolderBackground": "#857E75",
+    "statusBar.noFolderBackground": "#787066",
     "statusBar.noFolderForeground": "#F8F4EC",
     "statusBarItem.hoverBackground": "#3F393380",
     "statusBarItem.remoteBackground": "#1B685E",
@@ -98,7 +98,7 @@
     // ── Text Blocks (chat, hover, markdown preview) ───────
     "textCodeBlock.background": "#CFCAC2",
     "textBlockQuote.background": "#CFCAC2",
-    "textBlockQuote.border": "#857E75",
+    "textBlockQuote.border": "#787066",
     "textPreformat.foreground": "#5B544C",
     "textPreformat.background": "#CFCAC2",
     "textLink.foreground": "#1B685E",
@@ -114,8 +114,8 @@
     // ── Inputs ──────────────────────────────────────────────
     "input.background": "#F8F4EC",
     "input.foreground": "#0D322D",
-    "input.border": "#857E75",
-    "input.placeholderForeground": "#857E7580",
+    "input.border": "#787066",
+    "input.placeholderForeground": "#78706680",
     "inputOption.activeBorder": "#1B685E",
     "inputOption.activeBackground": "#1B685E20",
     "inputValidation.errorBackground": "#FCE5E3",
@@ -137,7 +137,7 @@
     // ── Dropdown ────────────────────────────────────────────
     "dropdown.background": "#F8F4EC",
     "dropdown.foreground": "#0D322D",
-    "dropdown.border": "#857E75",
+    "dropdown.border": "#787066",
     "dropdown.listBackground": "#F8F4EC",
 
     // ── Badges ──────────────────────────────────────────────
@@ -148,7 +148,7 @@
     "scrollbar.shadow": "#5B544C10",
     "scrollbarSlider.background": "#A8A29840",
     "scrollbarSlider.hoverBackground": "#A8A29860",
-    "scrollbarSlider.activeBackground": "#857E7580",
+    "scrollbarSlider.activeBackground": "#78706680",
 
     // ── Lists & Trees ───────────────────────────────────────
     "list.activeSelectionBackground": "#C8DDD7",
@@ -174,7 +174,7 @@
     "editorSuggestWidget.highlightForeground": "#1B685E",
 
     // ── Peek View ───────────────────────────────────────────
-    "peekView.border": "#857E75",
+    "peekView.border": "#787066",
     "peekViewEditor.background": "#F8F4EC",
     "peekViewEditor.matchHighlightBackground": "#D0E7E280",
     "peekViewResult.background": "#E4DFD7",
@@ -208,7 +208,7 @@
     "gitDecoration.deletedResourceForeground": "#C13C3B",
     "gitDecoration.untrackedResourceForeground": "#287AA3",
     "gitDecoration.conflictingResourceForeground": "#C13C3B",
-    "gitDecoration.ignoredResourceForeground": "#857E75",
+    "gitDecoration.ignoredResourceForeground": "#787066",
     "gitDecoration.stageModifiedResourceForeground": "#1B685E",
     "gitDecoration.stageDeletedResourceForeground": "#C13C3B",
 
@@ -238,7 +238,7 @@
     "terminal.ansiMagenta": "#932B2A",
     "terminal.ansiCyan": "#1B685E",
     "terminal.ansiWhite": "#F8F4EC",
-    "terminal.ansiBrightBlack": "#857E75",
+    "terminal.ansiBrightBlack": "#787066",
     "terminal.ansiBrightRed": "#C13C3B",
     "terminal.ansiBrightGreen": "#3A8E64",
     "terminal.ansiBrightYellow": "#CEA861",

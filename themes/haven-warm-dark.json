@@ -28,7 +28,7 @@
     "editorLineNumber.activeForeground": "#BBB6AD",
     "editorRuler.foreground": "#3F393350",
     "editorBracketMatch.background": "#5B544C40",
-    "editorBracketMatch.border": "#857E75",
+    "editorBracketMatch.border": "#958E85",
     "editorOverviewRuler.border": "#3F393300",
     "editorGutter.addedBackground": "#3A8E64",
     "editorGutter.modifiedBackground": "#CEA861",
@@ -111,7 +111,7 @@
     // warm-100 (#25211D) — chrome level, matches sidebar
     "panel.background": "#25211D",
     "panel.border": "#25211D40",
-    "panelTitle.activeBorder": "#857E75",
+    "panelTitle.activeBorder": "#958E85",
     "panelTitle.activeForeground": "#BBB6AD",
     "panelTitle.inactiveForeground": "#A8A298",
 
@@ -177,7 +177,7 @@
     "editorSuggestWidget.highlightForeground": "#52A395",
 
     // ── Peek View ───────────────────────────────────────────
-    "peekView.border": "#857E75",
+    "peekView.border": "#958E85",
     "peekViewEditor.background": "#25211D",
     "peekViewEditor.matchHighlightBackground": "#1B685E50",
     "peekViewResult.background": "#25211D",
@@ -241,7 +241,7 @@
     "terminal.ansiMagenta": "#D87972",
     "terminal.ansiCyan": "#52A395",
     "terminal.ansiWhite": "#BBB6AD",
-    "terminal.ansiBrightBlack": "#857E75",
+    "terminal.ansiBrightBlack": "#958E85",
     "terminal.ansiBrightRed": "#E09990",
     "terminal.ansiBrightGreen": "#ACCFAD",
     "terminal.ansiBrightYellow": "#CEA861",
