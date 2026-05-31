@@ -107,8 +107,10 @@
     "textSeparator.foreground": "#BBB6AD",
 
     // ── Chat ────────────────────────────────────────────────
-    "chat.requestBackground": "#E4DFD7",
-    "chat.requestBorder": "#BBB6AD60",
+    // requestBackground matches editor bg so chat panes punch through like
+    // active editor tabs — coherent tab/content relationship.
+    "chat.requestBackground": "#F8F4EC",
+    "chat.requestBorder": "#BBB6AD",
     "chat.slashCommandBackground": "#CFCAC260",
     "chat.slashCommandForeground": "#5B544C",
 
