@@ -7,27 +7,27 @@
     // ── Editor ──────────────────────────────────────────────
     "editor.background": "#F8F4EC",
     "editor.foreground": "#0D322D",
-    "editor.lineHighlightBackground": "#F3F1EE",
-    "editor.lineHighlightBorder": "#F3F1EE00",
-    "editor.selectionBackground": "#E7E4DF",
-    "editor.selectionHighlightBackground": "#E7E4DF80",
-    "editor.wordHighlightBackground": "#E7E4DF80",
-    "editor.wordHighlightStrongBackground": "#E7E4DFA0",
+    "editor.lineHighlightBackground": "#E4DFD7",
+    "editor.lineHighlightBorder": "#E4DFD700",
+    "editor.selectionBackground": "#CFCAC2",
+    "editor.selectionHighlightBackground": "#CFCAC280",
+    "editor.wordHighlightBackground": "#CFCAC280",
+    "editor.wordHighlightStrongBackground": "#CFCAC2A0",
     "editor.findMatchBackground": "#D0E7E2",
     "editor.findMatchHighlightBackground": "#E9F5F260",
-    "editor.rangeHighlightBackground": "#F3F1EE80",
-    "editor.hoverHighlightBackground": "#F3F1EE80",
-    "editor.foldBackground": "#F3F1EE80",
+    "editor.rangeHighlightBackground": "#E4DFD780",
+    "editor.hoverHighlightBackground": "#E4DFD780",
+    "editor.foldBackground": "#E4DFD780",
     "editorCursor.foreground": "#1B685E",
-    "editorWhitespace.foreground": "#D1CDC640",
-    "editorIndentGuide.background": "#D1CDC6",
+    "editorWhitespace.foreground": "#BBB6AD40",
+    "editorIndentGuide.background": "#BBB6AD",
     "editorIndentGuide.activeBackground": "#857E75",
     "editorLineNumber.foreground": "#857E75",
     "editorLineNumber.activeForeground": "#0D322D",
-    "editorRuler.foreground": "#D1CDC640",
-    "editorBracketMatch.background": "#E7E4DF80",
+    "editorRuler.foreground": "#BBB6AD40",
+    "editorBracketMatch.background": "#CFCAC280",
     "editorBracketMatch.border": "#857E75",
-    "editorOverviewRuler.border": "#D1CDC600",
+    "editorOverviewRuler.border": "#BBB6AD00",
     "editorGutter.addedBackground": "#3A8E64",
     "editorGutter.modifiedBackground": "#1B685E",
     "editorGutter.deletedBackground": "#C13C3B",
@@ -36,43 +36,43 @@
     "editorInfo.foreground": "#287AA3",
 
     // ── Editor Groups & Tabs ────────────────────────────────
-    // warm-900 (#F3F1EE) — warm neutral chrome
-    "editorGroup.border": "#D1CDC6",
-    "editorGroupHeader.tabsBackground": "#F3F1EE",
-    "editorGroupHeader.noTabsBackground": "#F3F1EE",
+    // warm-900 (#E4DFD7) — warm neutral chrome
+    "editorGroup.border": "#BBB6AD",
+    "editorGroupHeader.tabsBackground": "#E4DFD7",
+    "editorGroupHeader.noTabsBackground": "#E4DFD7",
     "tab.activeBackground": "#F8F4EC",
     "tab.activeForeground": "#0D322D",
     "tab.activeBorderTop": "#1B685E",
     "tab.activeBorder": "#F8F4EC00",
-    "tab.inactiveBackground": "#F3F1EE",
+    "tab.inactiveBackground": "#E4DFD7",
     "tab.inactiveForeground": "#5B544C",
-    "tab.border": "#F3F1EE",
+    "tab.border": "#E4DFD7",
     "tab.hoverBackground": "#F8F4EC",
 
     // ── Title Bar ───────────────────────────────────────────
-    // warm-900 (#F3F1EE) — matches sidebar, thin strip should blend
-    "titleBar.activeBackground": "#F3F1EE",
+    // warm-900 (#E4DFD7) — matches sidebar, thin strip should blend
+    "titleBar.activeBackground": "#E4DFD7",
     "titleBar.activeForeground": "#0D322D",
-    "titleBar.inactiveBackground": "#F3F1EE",
+    "titleBar.inactiveBackground": "#E4DFD7",
     "titleBar.inactiveForeground": "#5B544C",
-    "titleBar.border": "#D1CDC6",
+    "titleBar.border": "#BBB6AD",
 
     // ── Activity Bar ────────────────────────────────────────
-    // warm-800 (#E7E4DF) — one step darker than sidebar, mirrors dark theme pattern
-    "activityBar.background": "#E7E4DF",
+    // warm-800 (#CFCAC2) — one step darker than sidebar, mirrors dark theme pattern
+    "activityBar.background": "#CFCAC2",
     "activityBar.foreground": "#0D322D",
     "activityBar.inactiveForeground": "#787066",
-    "activityBar.border": "#D1CDC6",
+    "activityBar.border": "#BBB6AD",
     "activityBarBadge.background": "#1B685E",
     "activityBarBadge.foreground": "#F8F4EC",
 
     // ── Sidebar ─────────────────────────────────────────────
-    // warm-900 (#F3F1EE) — warm neutral chrome matching tab bar
-    "sideBar.background": "#F3F1EE",
+    // warm-900 (#E4DFD7) — warm neutral chrome matching tab bar
+    "sideBar.background": "#E4DFD7",
     "sideBar.foreground": "#0D322D",
-    "sideBar.border": "#D1CDC6",
+    "sideBar.border": "#BBB6AD",
     "sideBarTitle.foreground": "#0D322D",
-    "sideBarSectionHeader.background": "#E7E4DF",
+    "sideBarSectionHeader.background": "#CFCAC2",
     "sideBarSectionHeader.foreground": "#0D322D",
 
     // ── Status Bar ──────────────────────────────────────────
@@ -89,26 +89,26 @@
     "statusBarItem.remoteForeground": "#F8F4EC",
 
     // ── Panel (Terminal, Output, etc.) ──────────────────────
-    "panel.background": "#F3F1EE",
-    "panel.border": "#D1CDC6",
+    "panel.background": "#E4DFD7",
+    "panel.border": "#BBB6AD",
     "panelTitle.activeBorder": "#5B544C",
     "panelTitle.activeForeground": "#0D322D",
     "panelTitle.inactiveForeground": "#5B544C",
 
     // ── Text Blocks (chat, hover, markdown preview) ───────
-    "textCodeBlock.background": "#E7E4DF",
-    "textBlockQuote.background": "#E7E4DF",
+    "textCodeBlock.background": "#CFCAC2",
+    "textBlockQuote.background": "#CFCAC2",
     "textBlockQuote.border": "#857E75",
     "textPreformat.foreground": "#5B544C",
-    "textPreformat.background": "#E7E4DF",
+    "textPreformat.background": "#CFCAC2",
     "textLink.foreground": "#1B685E",
     "textLink.activeForeground": "#0D322D",
-    "textSeparator.foreground": "#D1CDC6",
+    "textSeparator.foreground": "#BBB6AD",
 
     // ── Chat ────────────────────────────────────────────────
-    "chat.requestBackground": "#F3F1EE",
-    "chat.requestBorder": "#D1CDC660",
-    "chat.slashCommandBackground": "#E7E4DF60",
+    "chat.requestBackground": "#E4DFD7",
+    "chat.requestBorder": "#BBB6AD60",
+    "chat.slashCommandBackground": "#CFCAC260",
     "chat.slashCommandForeground": "#5B544C",
 
     // ── Inputs ──────────────────────────────────────────────
@@ -130,9 +130,9 @@
     "button.background": "#1B685E",
     "button.foreground": "#F8F4EC",
     "button.hoverBackground": "#124D45",
-    "button.secondaryBackground": "#E7E4DF",
+    "button.secondaryBackground": "#CFCAC2",
     "button.secondaryForeground": "#0D322D",
-    "button.secondaryHoverBackground": "#D1CDC6",
+    "button.secondaryHoverBackground": "#BBB6AD",
 
     // ── Dropdown ────────────────────────────────────────────
     "dropdown.background": "#F8F4EC",
@@ -146,18 +146,18 @@
 
     // ── Scrollbar ───────────────────────────────────────────
     "scrollbar.shadow": "#5B544C10",
-    "scrollbarSlider.background": "#B3ADA440",
-    "scrollbarSlider.hoverBackground": "#B3ADA460",
+    "scrollbarSlider.background": "#A8A29840",
+    "scrollbarSlider.hoverBackground": "#A8A29860",
     "scrollbarSlider.activeBackground": "#857E7580",
 
     // ── Lists & Trees ───────────────────────────────────────
     "list.activeSelectionBackground": "#C8DDD7",
     "list.activeSelectionForeground": "#0D322D",
-    "list.inactiveSelectionBackground": "#E7E4DF",
+    "list.inactiveSelectionBackground": "#CFCAC2",
     "list.inactiveSelectionForeground": "#0D322D",
-    "list.hoverBackground": "#E7E4DF",
+    "list.hoverBackground": "#CFCAC2",
     "list.hoverForeground": "#0D322D",
-    "list.focusBackground": "#E7E4DF",
+    "list.focusBackground": "#CFCAC2",
     "list.focusForeground": "#0D322D",
     "list.highlightForeground": "#1B685E",
     "list.errorForeground": "#C13C3B",
@@ -165,25 +165,25 @@
 
     // ── Widgets ─────────────────────────────────────────────
     "widget.shadow": "#5B544C10",
-    "editorWidget.background": "#F3F1EE",
+    "editorWidget.background": "#E4DFD7",
     "editorWidget.foreground": "#0D322D",
-    "editorWidget.border": "#D1CDC6",
-    "editorSuggestWidget.background": "#F3F1EE",
+    "editorWidget.border": "#BBB6AD",
+    "editorSuggestWidget.background": "#E4DFD7",
     "editorSuggestWidget.foreground": "#0D322D",
-    "editorSuggestWidget.selectedBackground": "#E7E4DF",
+    "editorSuggestWidget.selectedBackground": "#CFCAC2",
     "editorSuggestWidget.highlightForeground": "#1B685E",
 
     // ── Peek View ───────────────────────────────────────────
     "peekView.border": "#857E75",
     "peekViewEditor.background": "#F8F4EC",
     "peekViewEditor.matchHighlightBackground": "#D0E7E280",
-    "peekViewResult.background": "#F3F1EE",
+    "peekViewResult.background": "#E4DFD7",
     "peekViewResult.fileForeground": "#0D322D",
     "peekViewResult.lineForeground": "#5B544C",
     "peekViewResult.matchHighlightBackground": "#D0E7E280",
-    "peekViewResult.selectionBackground": "#E7E4DF",
+    "peekViewResult.selectionBackground": "#CFCAC2",
     "peekViewResult.selectionForeground": "#0D322D",
-    "peekViewTitle.background": "#E7E4DF",
+    "peekViewTitle.background": "#CFCAC2",
     "peekViewTitleLabel.foreground": "#0D322D",
     "peekViewTitleDescription.foreground": "#5B544C",
 
@@ -200,7 +200,7 @@
     "breadcrumb.foreground": "#5B544C",
     "breadcrumb.focusForeground": "#0D322D",
     "breadcrumb.activeSelectionForeground": "#0D322D",
-    "breadcrumbPicker.background": "#F3F1EE",
+    "breadcrumbPicker.background": "#E4DFD7",
 
     // ── Git Decorations ─────────────────────────────────────
     "gitDecoration.addedResourceForeground": "#3A8E64",
@@ -228,7 +228,7 @@
     "focusBorder": "#1B685E",
 
     // ── Terminal ────────────────────────────────────────────
-    "terminal.background": "#F3F1EE",
+    "terminal.background": "#E4DFD7",
     "terminal.foreground": "#0D322D",
     "terminal.ansiBlack": "#0D322D",
     "terminal.ansiRed": "#C13C3B",
@@ -246,14 +246,14 @@
     "terminal.ansiBrightMagenta": "#D87972",
     "terminal.ansiBrightCyan": "#3A8478",
     "terminal.ansiBrightWhite": "#F8F4EC",
-    "terminal.selectionBackground": "#E7E4DF",
+    "terminal.selectionBackground": "#CFCAC2",
     "terminalCursor.foreground": "#1B685E",
 
     // ── Notification ────────────────────────────────────────
-    "notificationCenter.border": "#D1CDC6",
-    "notifications.background": "#F3F1EE",
+    "notificationCenter.border": "#BBB6AD",
+    "notifications.background": "#E4DFD7",
     "notifications.foreground": "#0D322D",
-    "notifications.border": "#D1CDC6",
+    "notifications.border": "#BBB6AD",
     "notificationsErrorIcon.foreground": "#C13C3B",
     "notificationsWarningIcon.foreground": "#754B00",
     "notificationsInfoIcon.foreground": "#287AA3"

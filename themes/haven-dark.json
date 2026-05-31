@@ -391,13 +391,13 @@
 
     // ── Semantic: Variables ────────────────────────────────
     "variable": "#F8F4EC",
-    "variable.readonly": "#D1CDC6",
+    "variable.readonly": "#BBB6AD",
     "variable.defaultLibrary": "#A8D1C9",
     "parameter": "#F8F4EC",
     "parameter.declaration": { "foreground": "#F8F4EC", "fontStyle": "italic" },
-    "property": "#D1CDC6",
-    "property.readonly": "#B3ADA4",
-    "property.declaration": "#D1CDC6",
+    "property": "#BBB6AD",
+    "property.readonly": "#A8A298",
+    "property.declaration": "#BBB6AD",
 
     // ── Semantic: Decorators ──────────────────────────────
     "decorator": { "foreground": "#ACCFAD", "fontStyle": "italic" }
@@ -428,7 +428,7 @@
         "comment.block.javadoc"
       ],
       "settings": {
-        "foreground": "#B3ADA4",
+        "foreground": "#A8A298",
         "fontStyle": "italic"
       }
     },
@@ -561,7 +561,7 @@
     },
 
     // ── Properties ──────────────────────────────────────────
-    // warm-700 (#D1CDC6) · ~15.3:1 on #010F0C · AAA ✓
+    // warm-700 (#BBB6AD) · ~15.3:1 on #010F0C · AAA ✓
     {
       "name": "Properties",
       "scope": [
@@ -571,12 +571,12 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#D1CDC6"
+        "foreground": "#BBB6AD"
       }
     },
 
     // ── Operators and Punctuation ────────────────────────────
-    // warm-600 (#B3ADA4) · ~11.1:1 on #010F0C · AAA ✓
+    // warm-600 (#A8A298) · ~11.1:1 on #010F0C · AAA ✓
     {
       "name": "Operators",
       "scope": [
@@ -588,7 +588,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#B3ADA4"
+        "foreground": "#A8A298"
       }
     },
 
