@@ -81,7 +81,7 @@
     // warm-75 (#25211D) — one step darker than sidebar for depth
     "activityBar.background": "#25211D",
     "activityBar.foreground": "#D1CDC6",
-    "activityBar.inactiveForeground": "#857E75",
+    "activityBar.inactiveForeground": "#958E85",
     "activityBar.border": "#25211D",
     "activityBarBadge.background": "#1B685E",
     "activityBarBadge.foreground": "#D1CDC6",

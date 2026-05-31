@@ -61,7 +61,7 @@
     // warm-800 (#E7E4DF) — one step darker than sidebar, mirrors dark theme pattern
     "activityBar.background": "#E7E4DF",
     "activityBar.foreground": "#0D322D",
-    "activityBar.inactiveForeground": "#857E75",
+    "activityBar.inactiveForeground": "#787066",
     "activityBar.border": "#D1CDC6",
     "activityBarBadge.background": "#1B685E",
     "activityBarBadge.foreground": "#F8F4EC",
