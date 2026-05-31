@@ -37,6 +37,19 @@
     "editorWarning.foreground": "#CEA861",
     "editorInfo.foreground": "#538EB0",
 
+    // ── Sticky Scroll ─────────────────────────────────────
+    "editorStickyScroll.background": "#25211D",
+    "editorStickyScrollHover.background": "#322E28",
+
+    // ── Inlay Hints ───────────────────────────────────────
+    "editorInlayHint.background": "#3F393330",
+    "editorInlayHint.foreground": "#958E8590",
+    "editorInlayHint.typeForeground": "#52A39580",
+    "editorInlayHint.parameterForeground": "#81B98370",
+
+    // ── Ghost Text (AI completions) ───────────────────────
+    "editorGhostText.foreground": "#958E8560",
+
     // ── Text Blocks (chat, hover, markdown preview) ───────
     "textCodeBlock.background": "#3F3933",
     "textBlockQuote.background": "#3F3933",
@@ -68,6 +81,11 @@
     "tab.inactiveForeground": "#958E85",
     "tab.border": "#322E28",
     "tab.hoverBackground": "#3F3933",
+    "tab.hoverForeground": "#BBB6AD",
+    "tab.unfocusedActiveBackground": "#25211D",
+    "tab.unfocusedActiveForeground": "#A8A298",
+    "tab.unfocusedInactiveBackground": "#322E28",
+    "tab.unfocusedInactiveForeground": "#787066",
 
     // ── Title Bar ───────────────────────────────────────────
     // warm-75 (#25211D) — half-step between activity bar and editor
@@ -92,9 +110,11 @@
     "sideBar.background": "#25211D",
     "sideBar.foreground": "#BBB6AD",
     "sideBar.border": "#25211D40",
+    "sideBar.dropBackground": "#52A39520",
     "sideBarTitle.foreground": "#BBB6AD",
     "sideBarSectionHeader.background": "#25211D",
     "sideBarSectionHeader.foreground": "#BBB6AD",
+    "sideBarSectionHeader.border": "#3F393300",
 
     // ── Status Bar ──────────────────────────────────────────
     "statusBar.background": "#3F3933",
@@ -105,6 +125,8 @@
     "statusBar.noFolderBackground": "#25211D",
     "statusBar.noFolderForeground": "#A8A298",
     "statusBarItem.hoverBackground": "#3F393380",
+    "statusBarItem.prominentBackground": "#124D45",
+    "statusBarItem.prominentHoverBackground": "#1B685E",
     "statusBarItem.remoteBackground": "#1B685E",
     "statusBarItem.remoteForeground": "#BBB6AD",
 
@@ -115,6 +137,9 @@
     "panelTitle.activeBorder": "#958E85",
     "panelTitle.activeForeground": "#BBB6AD",
     "panelTitle.inactiveForeground": "#A8A298",
+    "panelSectionHeader.background": "#3F3933",
+    "panelSectionHeader.border": "#3F393300",
+    "panelSection.border": "#3F393330",
 
     // ── Inputs ──────────────────────────────────────────────
     "input.background": "#25211D",
@@ -123,6 +148,7 @@
     "input.placeholderForeground": "#5B544C80",
     "inputOption.activeBorder": "#52A395",
     "inputOption.activeBackground": "#52A39520",
+    "inputOption.activeForeground": "#BBB6AD",
     "inputValidation.errorBackground": "#932B2A40",
     "inputValidation.errorBorder": "#D87972",
     "inputValidation.warningBackground": "#754B0040",
@@ -157,18 +183,21 @@
     // ── Lists & Trees ───────────────────────────────────────
     "list.activeSelectionBackground": "#3D4D49",
     "list.activeSelectionForeground": "#BBB6AD",
+    "list.activeSelectionIconForeground": "#BBB6AD",
     "list.inactiveSelectionBackground": "#25211D",
     "list.inactiveSelectionForeground": "#BBB6AD",
     "list.hoverBackground": "#25211D",
     "list.hoverForeground": "#BBB6AD",
     "list.focusBackground": "#25211D",
     "list.focusForeground": "#BBB6AD",
+    "list.focusOutline": "#52A39560",
     "list.highlightForeground": "#52A395",
     "list.errorForeground": "#D87972",
     "list.warningForeground": "#CEA861",
 
     // ── Widgets ─────────────────────────────────────────────
     "widget.shadow": "#25211D60",
+    "widget.border": "#3F393330",
     "editorWidget.background": "#25211D",
     "editorWidget.foreground": "#BBB6AD",
     "editorWidget.border": "#25211D40",
@@ -176,6 +205,15 @@
     "editorSuggestWidget.foreground": "#BBB6AD",
     "editorSuggestWidget.selectedBackground": "#25211D",
     "editorSuggestWidget.highlightForeground": "#52A395",
+    "editorSuggestWidget.focusHighlightForeground": "#52A395",
+
+    // ── Quick Input ───────────────────────────────────────
+    "quickInput.background": "#25211D",
+    "quickInput.foreground": "#BBB6AD",
+    "quickInputList.focusBackground": "#1B685E30",
+    "quickInputList.focusForeground": "#BBB6AD",
+    "quickInputList.focusIconForeground": "#52A395",
+    "quickInputTitle.background": "#25211D",
 
     // ── Peek View ───────────────────────────────────────────
     "peekView.border": "#958E85",
@@ -221,6 +259,7 @@
     "diffEditor.removedTextBackground": "#C13C3B20",
     "diffEditor.insertedLineBackground": "#3A8E6415",
     "diffEditor.removedLineBackground": "#C13C3B15",
+    "diffEditor.diagonalFill": "#3F393330",
 
     // ── Merge Conflicts ─────────────────────────────────────
     "merge.currentHeaderBackground": "#3A8E6440",
@@ -260,7 +299,84 @@
     "notifications.border": "#25211D40",
     "notificationsErrorIcon.foreground": "#D87972",
     "notificationsWarningIcon.foreground": "#CEA861",
-    "notificationsInfoIcon.foreground": "#538EB0"
+    "notificationsInfoIcon.foreground": "#538EB0",
+
+    // ── Command Center ──────────────────────────────────────
+    "commandCenter.background": "#25211D80",
+    "commandCenter.foreground": "#BBB6AD",
+    "commandCenter.border": "#3F393340",
+    "commandCenter.activeBackground": "#1B685E30",
+    "commandCenter.activeForeground": "#BBB6AD",
+    "commandCenter.activeBorder": "#52A39560",
+
+    // ── Banner ──────────────────────────────────────────────
+    "banner.background": "#3F3933",
+    "banner.foreground": "#BBB6AD",
+    "banner.iconForeground": "#52A395",
+
+    // ── Welcome Page ────────────────────────────────────────
+    "welcomePage.tileBackground": "#25211D",
+    "welcomePage.tileBorder": "#3F393340",
+    "welcomePage.progress.foreground": "#52A395",
+    "walkThrough.embeddedEditorBackground": "#25211D",
+
+    // ── Settings Editor ─────────────────────────────────────
+    "settings.headerForeground": "#BBB6AD",
+    "settings.modifiedItemIndicator": "#52A395",
+    "settings.focusedRowBackground": "#1B685E15",
+    "settings.rowHoverBackground": "#1B685E10",
+
+    // ── Debug ───────────────────────────────────────────────
+    "debugToolBar.background": "#25211D",
+    "debugToolBar.border": "#3F393340",
+    "debugIcon.breakpointForeground": "#D87972",
+    "debugIcon.startForeground": "#81B983",
+    "debugIcon.pauseForeground": "#CEA861",
+    "debugIcon.stopForeground": "#D87972",
+    "debugIcon.disconnectForeground": "#D87972",
+    "debugIcon.restartForeground": "#81B983",
+    "debugIcon.stepOverForeground": "#52A395",
+    "debugIcon.stepIntoForeground": "#52A395",
+    "debugIcon.stepOutForeground": "#52A395",
+    "debugIcon.continueForeground": "#81B983",
+    "debugConsole.infoForeground": "#A8A298",
+    "debugConsole.warningForeground": "#CEA861",
+    "debugConsole.errorForeground": "#D87972",
+    "debugConsoleInputIcon.foreground": "#52A395"
+  },
+
+  "semanticHighlighting": true,
+
+  "semanticTokenColors": {
+    // ── Semantic: Types ────────────────────────────────────
+    "type": "#A8D1C9",
+    "type.declaration": { "foreground": "#A8D1C9", "fontStyle": "bold" },
+    "interface": { "foreground": "#A8D1C9", "fontStyle": "italic" },
+    "interface.declaration": { "foreground": "#A8D1C9", "fontStyle": "bold italic" },
+    "enum": "#6FA5C4",
+    "enum.declaration": { "foreground": "#6FA5C4", "fontStyle": "bold" },
+    "enumMember": "#6FA5C4",
+    "typeParameter": { "foreground": "#689B6A", "fontStyle": "italic" },
+    "namespace": "#52A395",
+
+    // ── Semantic: Functions ────────────────────────────────
+    "function": "#81B983",
+    "function.declaration": { "foreground": "#81B983", "fontStyle": "bold" },
+    "method": "#81B983",
+    "method.declaration": { "foreground": "#81B983", "fontStyle": "bold" },
+
+    // ── Semantic: Variables ────────────────────────────────
+    "variable": "#BBB6AD",
+    "variable.readonly": "#A8A298",
+    "variable.defaultLibrary": "#A8D1C9",
+    "parameter": "#BBB6AD",
+    "parameter.declaration": { "foreground": "#BBB6AD", "fontStyle": "italic" },
+    "property": "#A8A298",
+    "property.readonly": "#958E85",
+    "property.declaration": "#A8A298",
+
+    // ── Semantic: Decorators ──────────────────────────────
+    "decorator": { "foreground": "#ACCFAD", "fontStyle": "italic" }
   },
 
   // Syntax tokens identical to Haven Teal Dark —
