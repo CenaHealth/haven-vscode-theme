@@ -1,15 +1,15 @@
 # Haven — VS Code Theme
 
-A warm, accessible VS Code theme built from the Cena Health brand design system. Four variants: teal chromatic and warm neutral, each in light and dark.
+A warm, accessible VS Code theme built from the Cena Health brand design system. Four variants: teal and neutral, each in light and dark.
 
 ## Variants
 
 | Theme | Editor | Chrome | Character |
 |-------|--------|--------|-----------|
-| **Haven Light** | Warm white (`#FBFAF8`) | Light teal wash (`#E9F5F2`) | Teal-forward, clinical clarity |
-| **Haven Dark** | Deep teal-black (`#010F0C`) | Rising teal chrome (`#04201C`) | Immersive chromatic dark |
-| **Haven Warm Light** | Warm white (`#FBFAF8`) | Warm tan (`#EDEBE7`) | Neutral, paper-like warmth |
-| **Haven Warm Dark** | Deep brown-black (`#0E0C0A`) | Rising warm chrome (`#1C1914`) | Warm earth tones |
+| **Haven Teal Light** | Warm white (`#FBFAF8`) | Warm neutral (`#F3F1EE`) + teal accents | Teal status bar, selections, and badges |
+| **Haven Teal Dark** | Deep teal-black (`#010F0C`) | Rising teal chrome (`#04201C`) | Immersive chromatic dark |
+| **Haven Neutral Light** | Warm white (`#FBFAF8`) | Warm neutral (`#F3F1EE`) + warm accents | Paper-like warmth, minimal color |
+| **Haven Neutral Dark** | Deep brown-black (`#0E0C0A`) | Rising warm chrome (`#1C1914`) | Warm earth tones |
 
 All four share identical syntax highlighting — only the chrome surfaces change.
 
@@ -39,7 +39,7 @@ ln -s "$(pwd)/haven-vscode-theme" \
   ~/.vscode/extensions/cena-health.haven-theme-0.1.0
 
 # Restart VS Code, then:
-# Cmd+K Cmd+T → select "Haven Light", "Haven Dark", etc.
+# Cmd+K Cmd+T → select "Haven Teal Light", "Haven Teal Dark", etc.
 ```
 
 ### Manual install
@@ -98,10 +98,10 @@ Haven uses [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) for
 
 ```
 themes/
-  haven-light.json       Light theme (teal chrome)
-  haven-dark.json        Dark theme (teal chromatic dark)
-  haven-warm-light.json  Light theme (warm neutral chrome)
-  haven-warm-dark.json   Dark theme (warm chromatic dark)
+  haven-light.json       Haven Teal Light
+  haven-dark.json        Haven Teal Dark
+  haven-warm-light.json  Haven Neutral Light
+  haven-warm-dark.json   Haven Neutral Dark
 .vscode/
   settings.json          Companion typography, motion, bracket colors
 package.json             Extension manifest

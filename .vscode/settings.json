@@ -24,7 +24,7 @@
   // Bracket pairs — brand teal/sage palette
   "editor.bracketPairColorization.enabled": true,
   "workbench.colorCustomizations": {
-    "[Haven Light]": {
+    "[Haven Teal Light]": {
       "editorBracketHighlight.foreground1": "#1B685E",
       "editorBracketHighlight.foreground2": "#3A643D",
       "editorBracketHighlight.foreground3": "#0B4E6C",
@@ -32,7 +32,7 @@
       "editorBracketHighlight.foreground5": "#124D45",
       "editorBracketHighlight.foreground6": "#5B544C"
     },
-    "[Haven Dark]": {
+    "[Haven Teal Dark]": {
       "editorBracketHighlight.foreground1": "#7CB9AD",
       "editorBracketHighlight.foreground2": "#81B983",
       "editorBracketHighlight.foreground3": "#6FA5C4",
@@ -40,7 +40,7 @@
       "editorBracketHighlight.foreground5": "#A8D1C9",
       "editorBracketHighlight.foreground6": "#B3ADA4"
     },
-    "[Haven Warm Light]": {
+    "[Haven Neutral Light]": {
       "editorBracketHighlight.foreground1": "#1B685E",
       "editorBracketHighlight.foreground2": "#3A643D",
       "editorBracketHighlight.foreground3": "#0B4E6C",
@@ -48,7 +48,7 @@
       "editorBracketHighlight.foreground5": "#124D45",
       "editorBracketHighlight.foreground6": "#5B544C"
     },
-    "[Haven Warm Dark]": {
+    "[Haven Neutral Dark]": {
       "editorBracketHighlight.foreground1": "#7CB9AD",
       "editorBracketHighlight.foreground2": "#81B983",
       "editorBracketHighlight.foreground3": "#6FA5C4",
